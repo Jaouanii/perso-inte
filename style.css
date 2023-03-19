@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variables input:  EDIT*/
+:root {
+    --input-border: #8b8a8b;
+    --input-focus-h: 245;
+    --input-focus-s: 100%;
+    --input-focus-l: 42%;
+    --gradient-blue-pink : linear-gradient(to left bottom, #d03b90, #c069b0, #b479c4, #a689d4, #9797df, #87a5eb, #77b2f3, #69bff8, #52cffe, #41dfff, #46eefa, #83ede6);
+  }
+
+
+.global-auth{
+    border: solid rgba(0, 0, 0, 0.33) 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 70%;
+    max-height: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 20% 0% 0% 20%; 
+    border-color: 2px solid red;
+    height: 70%;
+  }
+
+.subscribe{
+    /* border: solid black 1px; */
+    width: 50%;
+}
+
+/* img style */
+.img-auth{
+    /* object-fit: contain; */
+    background-image: linear-gradient(to left bottom, #d03b90, #c069b0, #b479c4, #a689d4, #9797df, #87a5eb, #77b2f3, #69bff8, #52cffe, #41dfff, #46eefa, #83ede6);
+    width: 50%;
+    /* border-radius: 3%; */
+}
+
+/* form */
+
+form{
+background: white;
+}
+
+/* input style */
+input{
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+input:focus{
+    outline: none;
+    border:2px solid linear-gradient(to left bottom, #d03b90, #c069b0, #b479c4, #a689d4, #9797df, #87a5eb, #77b2f3, #69bff8, #52cffe, #41dfff, #46eefa, #83ede6);
+    box-shadow: 0 0 10px #b4bfc9;
+}
+
+/*  */
